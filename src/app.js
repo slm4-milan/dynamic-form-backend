@@ -1,8 +1,8 @@
 // make bluebird default Promise
-const bluebird = require('bluebird');
-const { port, mongo } = require('./config/vars');
-const app = require('./config/express');
-const mongoose = require('./config/mongoose');
+const bluebird = require("bluebird");
+const { port, mongo } = require("./config/vars");
+const app = require("./config/express");
+const mongoose = require("./config/mongoose");
 
 // open mongoose connection
 mongoose.connect();
