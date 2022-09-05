@@ -11,5 +11,3 @@ mongoose.connect();
 app.listen(port, () => console.info(`server started on port ${port}`));
 
 module.exports = app;
-
-// TODO mogoose i express pogledati i joi ako zatreba
